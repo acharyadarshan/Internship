@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.container {
+
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 600px;    
+}
+
+.disBlock{
+    display: block;
+    margin-top: 50px;
+   
+}
+
+
+
+#submit{
+    position:absolute;
+    left:47%;
+}
+label{
+    width: 150px;
+    display: inline-block;
+}
+
+input {
+    padding: 3px; 
+  }
+
+
+textarea{
+    border: 2px solid #ccc;
+}
+
+button{
+    padding: 15px 22px;
+}
+
+  

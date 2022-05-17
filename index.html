@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <form action="#">
+                <div class="disBlock">
+                    <label for="fullname">Full Name: </label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Your name "size="50">
+                </div>
+                <br>
+
+                <div class="divBlock">
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email"size="50"> 
+                </div>
+                <br>
+                <div class="divBlock">
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" name="password"size="50"> 
+                </div>
+                <br>
+                <div class="divBlock">
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday"size ="50"> 
+                </div>
+                <br>
+
+                <div class="divBlock">
+                    <label for="Phone">Phone: </label>
+                    <input type="tel" maxlength="10"  id ="Phone"size="50">
+                
+                </div>
+                <br>
+
+                <div class="divBlock">
+
+                    <label for="male">Gender</label>
+                    <input type="radio" name="gender" id ="male"value="male">
+                    <label for="male">male</label>
+                    <input type="radio" name="gender" id ="female" value="female">
+                    <label for="female">female</label>
+
+                </div>
+                <br>
+
+                <div class="divBlock">
+                    <label >Hobbies:</label><br>
+                    <input type="checkbox" id="football" name="football" value="football">
+                    <label for="football"> Football</label><br>
+                    <input type="checkbox" id="singing" name="singing" value="singing">
+                    <label for="singing"> Singing</label><br>
+                    <input type="checkbox" id="f3" name="cricket" value="cricket">
+                    <label for="cricket"> Cricket</label><br>
+                
+                </div>
+                <br>
+
+                <div class="divBlock">
+                    <label for="message">Tell about yourself</label><br>
+                    <textarea name="message" id="message" cols="60" rows="10" placeholder="Enter your text" minlength="10" maxlength="250"></textarea>
+                </div>
+                <br>
+
+                <div id="Submit">
+                    <button>Submit</button>
+                </div>
+
+            </form>
+        </div>
+
+    </body>
+
+</html>
